@@ -1,15 +1,16 @@
 import React, {Suspense } from 'react'
+
 import Matcaps from './components/Matcaps';
 import Rombo from './components/Rombo';
-import Sphere from './components/Sphere'
 import Torus from './components/Torus';
 import Video from './components/Video';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="h-screen bg-black text-center overflow-x-hidden scrollbar scrollbar-thumb-purple-400 scrollbar-track-gray-600">
       <div className='h-screen bg-gray-800 '>
-        <Sphere />
+        <Home />
       </div>
       <div className='h-screen bg-slate-600 bg-blend-hard-light'>
       <h1 className='text-2xl text-white '>This is a rombo?</h1>
