@@ -1,12 +1,8 @@
-
-import React, { useRef, useState, Suspense } from 'react'
-import {Canvas} from '@react-three/fiber'
+import React, {Suspense } from 'react'
 import Matcaps from './Matcaps';
 import Rombo from './Rombo';
 import Sphere from './Sphere'
 import Torus from './Torus';
-import Background from './Background';
-import {Stars,Text} from '@react-three/drei'
 import Video from './Video';
 
 function App() {

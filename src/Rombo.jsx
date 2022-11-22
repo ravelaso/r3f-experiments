@@ -4,7 +4,7 @@ import {Canvas,useLoader} from '@react-three/fiber'
 import {OrbitControls} from '@react-three/drei'
 import Lights from './Lights';
 function Rombo() {
-  const mat = useLoader(TextureLoader,"./block/stone.png")
+  const mat = useLoader(TextureLoader,"./matcaps/matcap1.png")
     mat.minFilter = NearestFilter
     mat.magFilter = NearestFilter
     return (

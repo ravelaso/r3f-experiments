@@ -1,7 +1,7 @@
 import React from 'react';
 import {TextureLoader} from 'three'
 import {Canvas,useLoader} from '@react-three/fiber'
-import {OrbitControls,Line} from '@react-three/drei'
+import {OrbitControls} from '@react-three/drei'
 
 function Matcaps() {
     const mat = useLoader(TextureLoader,"./matcaps/matcap5.png")
