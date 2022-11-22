@@ -1,5 +1,6 @@
 import React from 'react'
-import videofile from './Square-Reflections.mp4'
+import videofile from '../assets/media/Square-Reflections.mp4'
+
 function Video() {
   return (
     <div className='h-screen'>

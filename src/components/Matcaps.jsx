@@ -2,9 +2,10 @@ import React from 'react';
 import {TextureLoader} from 'three'
 import {Canvas,useLoader} from '@react-three/fiber'
 import {OrbitControls} from '@react-three/drei'
+import texture from '../assets/material/matcap5.png'
 
 function Matcaps() {
-    const mat = useLoader(TextureLoader,"./matcaps/matcap5.png")
+    const mat = useLoader(TextureLoader,texture)
     return (
     <div className='h-screen'>
     <Canvas>

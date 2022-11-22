@@ -1,9 +1,9 @@
 import React, {Suspense } from 'react'
-import Matcaps from './Matcaps';
-import Rombo from './Rombo';
-import Sphere from './Sphere'
-import Torus from './Torus';
-import Video from './Video';
+import Matcaps from './components/Matcaps';
+import Rombo from './components/Rombo';
+import Sphere from './components/Sphere'
+import Torus from './components/Torus';
+import Video from './components/Video';
 
 function App() {
   return (
@@ -36,5 +36,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

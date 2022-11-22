@@ -3,8 +3,10 @@ import {TextureLoader, NearestFilter} from 'three'
 import {Canvas,useLoader} from '@react-three/fiber'
 import {OrbitControls} from '@react-three/drei'
 import Lights from './Lights';
+import texture from '../assets/material/matcap1.png'
+
 function Rombo() {
-  const mat = useLoader(TextureLoader,"./matcaps/matcap1.png")
+  const mat = useLoader(TextureLoader, texture)
     mat.minFilter = NearestFilter
     mat.magFilter = NearestFilter
     return (
