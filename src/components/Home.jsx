@@ -4,6 +4,7 @@ import {Stars,Text,Html} from '@react-three/drei'
 import {Flex,Box} from '@react-three/flex'
 import RotatingRombo from './RotatingRombo';
 import MovingSpot from './MovingSpot';
+import StarsBg from './StarsBg';
 
 function Home() {
     return (
@@ -42,12 +43,13 @@ function Home() {
             font="https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwK4vaqI.woff"
             anchorX="center"
             anchorY="middle">
-            Andrés Ravelo
+            ¡HOLA!
             </Text>
             {/* <OrbitControls dispose={true} autoRotate={true} enableZoom={true}  enableRotate={false} /> */}
           </Box>
         <Box >
-          <Stars position={[0,0,-2]} radius={50} depth={80} count={5000} factor={6} saturation={2} fade speed={3} />
+          {/* <Stars position={[0,0,-2]} radius={50} depth={80} count={5000} factor={6} saturation={2} fade speed={3} /> */}
+          <StarsBg />
         </Box>        
       </Flex>
       </Canvas>

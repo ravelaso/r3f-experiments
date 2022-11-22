@@ -5,16 +5,18 @@ import Rombo from './components/Rombo';
 import Torus from './components/Torus';
 import Video from './components/Video';
 import Home from './components/Home';
+import AtomReact from './components/AtomReact';
+
 
 function App() {
   return (
     <div className="h-screen bg-black text-center overflow-x-hidden scrollbar scrollbar-thumb-purple-400 scrollbar-track-gray-600">
-      <div className='h-screen bg-gray-800 '>
+      <div className='h-screen bg-gray-900 '>
         <Home />
       </div>
       <div className='h-screen bg-slate-600 bg-blend-hard-light'>
-      <h1 className='text-2xl text-white '>This is a rombo?</h1>
-        <Rombo />
+      <h1 className='text-2xl text-white '>This was made with React :D</h1>
+        <AtomReact />
       </div>
       <div className='h-screen bg-orange-400'>
       <h1 className='text-2xl '>This is a ...?</h1>
